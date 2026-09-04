@@ -22,5 +22,5 @@ def get_coin_data(coin_id: str):
     data = response.json()
     return data[0] if data else None
 
-print(get_coin_data("bitcoin"))
+
 
